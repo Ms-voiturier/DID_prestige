@@ -1,0 +1,37 @@
+html
+{
+  --res:  calc(0.01 * 10vmin);
+}
+body
+{
+  margin: 4em 4em ;
+
+  text-align: left ;
+  font: calc(30 * var(--res)) "arial", helvetica, sans-serif ;
+}
+h1#header
+{
+  margin-bottom: 40px;
+}
+ul#menu
+{
+  float: center ;
+  text-align: left ;
+  margin: 1.5em ;
+  font-size: 1.2em ;
+
+}
+ul#menu li
+{
+  display: inline-block ;
+  list-style-type: none ;
+  padding-bottom: 1em;
+  padding-right: 1em ;
+}
+
+h2#titre_lg
+{
+  text-align: center ;
+
+}
+
